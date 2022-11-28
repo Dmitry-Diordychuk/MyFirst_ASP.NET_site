@@ -42,5 +42,20 @@ namespace PartyInvites.Controllers
         {
             return View(Repository.Responses.Where(r => r.WillAttend == true));
         }
+
+        public IActionResult About()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IActionResult Contact()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IActionResult Privacy()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
